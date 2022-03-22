@@ -1,0 +1,271 @@
+@import url('https://fonts.gogleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position:relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: #0C0C0C;
+    padding: 40px;
+
+}
+
+.profileText
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profileText h2
+{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:600;
+    line-height: 1.4em;
+
+}
+
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact
+{
+    padding-top: 40px;
+}
+
+.title
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact ul
+{
+    position: relative;
+
+}
+
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #807978;
+}
+
+.contact ul li span
+{
+    color: white;
+    font-weight: 300;
+}
+
+.languages
+{
+    padding-top: 40px;
+}
+
+.languages ul
+{
+    position: relative;
+
+}
+.languages ul li span
+{
+    position: relative;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+.languages .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.languages .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: lightgrey;
+
+}
+
+
+.container .right_Side
+{
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+}
+
+.about
+{
+    margin-bottom: 50px;
+}
+
+.about:last-child
+{
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color: #0C0C0C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    color: darkslategrey;
+}
+
+.about .box
+{
+    display:flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.about .box .year_school
+{
+    min-width: 150px;
+
+}
+
+.about .box .year_school h5
+{
+    color: darkslategrey;
+    font-weight: 600;
+    line-height: 17pt;
+
+}
+
+.about .box .text h4
+{
+    font-size:  16px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    line-height: 20pt;
+}
+
+hr {
+    display: block;
+    margin: 0 auto 1.5em;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+.skills .box
+{
+    position: relative;
+    width:100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.about .box .hobbies h4
+{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
